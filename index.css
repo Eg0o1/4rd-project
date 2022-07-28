@@ -1,0 +1,84 @@
+/* .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+   */
+   @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+   *{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+body {font-size: 15px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.parent {
+max-width: 960px;
+    margin: 0 auto;
+}
+.wrapper {display: flex;
+align-content: center;
+justify-content: left;
+margin: 2rem;
+    overflow: hidden;
+    border-radius: 12px;}
+
+.child {height: 360px;
+padding: 30px;
+;}
+
+.child1 {background-color: hsl(31, 77%, 52%);
+}
+
+.child2 {background-color: hsl(184, 100%, 22%);}
+
+.child3 {background-color: hsl(179, 100%, 13%);
+    }
+    
+
+    h1 {color: #fff;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+p {color: #fff;
+font-family:  'Lexend Deca', sans-serif;
+font-weight: 300;}
+
+.button {width: 70%;
+    text-align: center;
+margin-top: 3rem;
+padding: 5px;
+font-family: 'Lexend Deca', sans-serif ;
+border: 3.5px solid white;
+border-radius: 50px;
+background-color: #fff;}
+
+.button1 {color:hsl(31, 77%, 52%) ;}
+
+.button2 {color:hsl(184, 100%, 22%) ;}
+
+.button3 {color:hsl(179, 100%, 13%) ;}
+
+.button1:hover {color: #fff;
+background-color:hsl(31, 77%, 52%) ;}
+
+.button2:hover {color: #fff;
+    background-color:hsl(184, 100%, 22%) ;}
+
+    .button3:hover {color: #fff;
+        background-color:hsl(179, 100%, 13%) ;}
+
+        @media only screen and (max-width: 768px) {
+            .wrapper {
+               flex-direction: column;
+            }
+        }
+        
+        @media only screen and (max-width: 425px) {
+            .wrapper {
+                margin: 2rem .5rem;
+            }
+        }
